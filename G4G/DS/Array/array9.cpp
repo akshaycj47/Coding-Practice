@@ -4,6 +4,12 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * Function that finds the equilibrium index. There may be multiple equilirium index
+ * Equilibrium index is the index where the left sum and right sum w.r.t. that index are equal
+ * @params arr {array} Array for which we have to find the equilibrium index
+ * @params n {int} Size of the array
+ */
 void printEquilibriumIndex(int* arr, int n) {
 	// Create a resultant array for sum of all elements to the left or to the right
 	int* result1 = new int[n];
@@ -29,6 +35,9 @@ void printEquilibriumIndex(int* arr, int n) {
 	}
 }
 
+/**
+ * Starting point of the program
+ */
 int main() {
 	int arr[] = {-7, 1, 5, 2, -4, 3, 0};
 	int n = sizeof(arr) / sizeof(arr[0]);

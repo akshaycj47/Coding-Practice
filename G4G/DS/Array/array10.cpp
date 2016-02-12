@@ -5,6 +5,11 @@
 #include <stack>
 using namespace std;
 
+/**
+ * Function that finds out the Next Greater Element (NGE) for every index
+ * @params arr {array} Array for which we have to find NGE
+ * @params n {int} Size of the array
+ */
 void nextGreaterElement(int* arr, int n) {
 	stack<int> stk;
 
@@ -22,6 +27,9 @@ void nextGreaterElement(int* arr, int n) {
 	}
 }
 
+/**
+ * Starting point of the program
+ */
 int main() {
 	int arr1[] = {4, 5, 2, 25};
 	int n1 = sizeof(arr1) / sizeof(arr1[0]);

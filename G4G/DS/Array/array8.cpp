@@ -4,12 +4,24 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * Function which swaps two elements in place
+ * @params *x {pointer to int} Pointer to the first element
+ * @params *y {pointer to int} Pointer to the second element
+ */
 void swap(int* x, int* y) {
 	int temp = *x;
 	*x = *y;
 	*y = temp;
 }
 
+/**
+ * Function which sorts an array of 0s, 1s, 2s
+ * This is also called as 'Dutch national flag problem'
+ * Sorting is performed in place
+ * @params arr {array} Array of 0s, 1s, 2s
+ * @params n {int} Size of the array
+ */
 void sort012(int* arr, int n) {
 	// First sort the array in place
 	int lo = 0;
@@ -38,6 +50,9 @@ void sort012(int* arr, int n) {
 	cout << endl;
 }
 
+/**
+ * Starting point of the program
+ */
 int main() {
 	int arr[] = {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1};
 	int n = sizeof(arr) / sizeof(arr[0]);

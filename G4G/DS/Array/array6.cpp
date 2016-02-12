@@ -4,6 +4,12 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * Function which computes the product array. Product array is an array with
+ * value at a particular index which is the product of all the indices except itseld
+ * @params arr {array} Array for which we have to compute the product array
+ * @params n {int} Size of the array
+ */
 void productArray(int* arr, int n) {
 	// Create the result array
 	int* result = new int[n];
@@ -28,6 +34,9 @@ void productArray(int* arr, int n) {
 	cout << endl;
 }
 
+/**
+ * Starting point of the program
+ */
 int main() {
 	int arr[] = {10, 3, 5, 6, 2};
 	int n = sizeof(arr) / sizeof(arr[0]);

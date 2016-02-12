@@ -5,6 +5,12 @@
 #include <map>
 using namespace std;
 
+/**
+ * Function which prints a pair of numbers with sum as x from a given array
+ * @params arr {array} The array from which we have to find the pair
+ * @params n {int} Size of the array
+ * @params sum {int} The sum for which we have to find a pair
+ */
 void printPair(int* arr, int n, int sum) {
 	map<int, bool> m;
 
@@ -17,6 +23,9 @@ void printPair(int* arr, int n, int sum) {
 	}
 }
 
+/**
+ * Starting point of the program
+ */
 int main() {
 	int arr[] = {1, 5, 9, 4, 2, 7, 6};
 	int n = sizeof(arr) / sizeof(arr[0]);

@@ -5,6 +5,11 @@
 #include <climits>
 using namespace std;
 
+/**
+ * Function that prints the smallest and second smallest element in an array
+ * @params arr {arr} Array for which we have to find smallest and second smallest elements
+ * @params n {int} Size of the array
+ */
 void smallestSecondSmallest(int* arr, int n) {
 	int first = INT_MAX;
 	int second = INT_MAX;
@@ -22,6 +27,9 @@ void smallestSecondSmallest(int* arr, int n) {
 	cout << "Second smallest: " << second << endl;
 }
 
+/**
+ * Starting point of the program
+ */
 int main() {
 	int arr[] = {12, 13, 1, 10, 34, 19};
 	int n = sizeof(arr) / sizeof(arr[0]);

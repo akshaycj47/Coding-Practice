@@ -4,6 +4,12 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * Function to find the pivot index (index from which the array is rotated)
+ * @params arr {array} Array from which we have to find the pivot element
+ * @params n {int} Size of the array
+ * @return {int} Return the index of the pivot element. Return '-1' if pivot element is not found
+ */
 int findPivot(int* arr, int n) {
 	int lo = 0;
 	int hi = n - 1;
@@ -26,6 +32,13 @@ int findPivot(int* arr, int n) {
 	return -1;
 }
 
+/**
+ * Function which returns the index of the search element from the sorted and rotated array
+ * @params arr {array} Array from which we have to find the index of the search element
+ * @params n {int} Size of the array
+ * @params search {int} Element that we have to search
+ * @return index {int} Index of the search element. Return '-1' if the element is not found
+ */
 int sortedRotatedSearch(int* arr, int n, int search) {
 	int pivot = findPivot(arr, n);
 	int lo = 0;
@@ -56,6 +69,9 @@ int sortedRotatedSearch(int* arr, int n, int search) {
 	return -1;
 }
 
+/**
+ * Starting point of the program
+ */
 int main() {
 	int arr[] = {3, 4, 5, 1, 2};
 	int n = sizeof(arr) / sizeof(arr[0]);

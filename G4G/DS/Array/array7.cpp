@@ -4,6 +4,11 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * Function to segregate even and odd numbers in an array
+ * @params arr {array} Array for which we have to segregate even and odd numbers
+ * @params n {int} Size of the array
+ */
 void segregateEvenOdd(int* arr, int n) {
 	// Perform segregation
 	int l = 0;
@@ -30,6 +35,9 @@ void segregateEvenOdd(int* arr, int n) {
 	cout << endl;
 }
 
+/**
+ * Starting point of the program
+ */
 int main() {
 	int arr[] = {12, 34, 45, 9, 8, 90, 3};
 	int n = sizeof(arr) / sizeof(arr[0]);
