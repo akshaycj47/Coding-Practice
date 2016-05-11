@@ -7,9 +7,9 @@ using namespace std;
 
 /**
  * Function which prints a pair of numbers with sum as x from a given array
- * @params arr {array} The array from which we have to find the pair
- * @params n {int} Size of the array
- * @params sum {int} The sum for which we have to find a pair
+ * @params {array} arr - The array from which we have to find the pair
+ * @params {int} n - Size of the array
+ * @params {int} sum - The sum for which we have to find a pair
  */
 void printPair(int* arr, int n, int sum) {
 	map<int, bool> m;
