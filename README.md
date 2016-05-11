@@ -1,5 +1,5 @@
 # Coding-Practice
-Solving coding problems from popular websites.
+Solving coding problems from popular websites / books
 
 # Contents:
 * Leetcode
