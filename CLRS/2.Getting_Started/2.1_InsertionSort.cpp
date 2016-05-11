@@ -31,7 +31,6 @@ int main() {
 	int n = sizeof(arr) / sizeof(arr[0]);
 	int res[] = {1, 2, 3, 4, 5, 6};
 	insertionSort(arr, n);
-	
 	for (int i = 0; i < n; i++) {
 		assert(arr[i] == res[i]);
 	}
@@ -40,7 +39,6 @@ int main() {
 	int n2 = sizeof(arr2) / sizeof(arr2[0]);
 	int res2[] = {3, 11, 23, 42, 61, 62, 842};
 	insertionSort(arr2, n2);
-	
 	for (int i = 0; i < n2; i++) {
 		assert(arr2[i] == res2[i]);
 	}
