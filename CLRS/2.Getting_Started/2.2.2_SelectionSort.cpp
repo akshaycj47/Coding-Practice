@@ -8,8 +8,8 @@ using namespace std;
 
 /**
  * Function which swaps two numbers
- * params {int} x - First number
- * params {int} y - Second number
+ * @params {int} x - First number
+ * @params {int} y - Second number
  */
 void swap(int* x, int* y) {
 	int temp = *x;
