@@ -1,0 +1,3 @@
+CLRS:
+Pg 39: 2.3.6 - Solve
+Pg 39: 2.3.7 - Verify solution
