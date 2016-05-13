@@ -1,5 +1,5 @@
 // Sort an array of n numbers in the ascending order using insertion sort and recursion
-// CLRS page 22
+// CLRS page 39
 
 #include <iostream>
 #include <cassert>
