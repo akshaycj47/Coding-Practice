@@ -7,6 +7,17 @@
 using namespace std;
 
 /**
+ * Function which swaps two numbers
+ * params {int} x - First number
+ * params {int} y - Second number
+ */
+void swap(int* x, int* y) {
+	int temp = *x;
+	*x = *y;
+	*y = temp;
+}
+
+/**
  * Function which sorts an array of n numbers in the ascending order
  * @params {array} arr - The array which we have to sort
  * @params {int} n - Size of the array
@@ -22,9 +33,10 @@ void selectionSort(int* arr, int n) {
 				minIndex = j;
 			} 
 		}
-		int temp = arr[i];
-		arr[i] = arr[minIndex];
-		arr[minIndex] = temp;
+		// int temp = arr[i];
+		// arr[i] = arr[minIndex];
+		// arr[minIndex] = temp;
+		swap(&arr[i], &arr[minIndex]);
 	}
 }
 
