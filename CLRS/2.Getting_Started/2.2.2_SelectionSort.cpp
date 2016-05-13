@@ -1,4 +1,4 @@
-// Sort an array of n numbers in the ascending order
+// Sort an array of n numbers in the ascending order using selection sort
 // CLRS page 29
 
 #include <iostream>

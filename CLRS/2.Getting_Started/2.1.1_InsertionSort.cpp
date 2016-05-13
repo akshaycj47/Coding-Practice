@@ -1,4 +1,4 @@
-// Sort an array of n numbers in the ascending order
+// Sort an array of n numbers in the ascending order using insertion sort
 // CLRS page 22
 
 #include <iostream>
