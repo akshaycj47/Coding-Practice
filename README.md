@@ -19,7 +19,7 @@ Solving coding problems from popular websites / books
 	* Data Structures
 		* Arrays
 	* Algorithms
-		* Dynamic Programming
+		* [Dynamic Programming](http://www.geeksforgeeks.org/fundamentals-of-algorithms/#DynamicProgramming)
 			* Longest Increasing Subsequence
 			* Longest Common Subsequence
 			* Edit Distance
