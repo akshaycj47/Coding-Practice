@@ -1,8 +1,10 @@
 # Coding-Practice
 Solving coding problems from popular websites / books
 
-# Contents:
-* Leetcode
-* Geeks for geeks
-* HackerRank
+----
+**Table of Contents**
+
 * CLRS
+* Geeks for Geeks
+* Hardware Software Interface
+* Leetcode
