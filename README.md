@@ -15,7 +15,7 @@ Solving coding problems from popular websites / books
 	* Divide and Conquer
 		* Maximum Subarray
 		* Matrix Multiplication
-* Geeks for Geeks
+* Geeks for Geeks (G4G)
 	* Data Structures
 		* Arrays
 	* Algorithms
