@@ -17,6 +17,23 @@ Solving coding problems from popular websites / books
 		* Matrix Multiplication
 * Geeks for Geeks
 	* Data Structures
+		* Arrays
 	* Algorithms
+		* Dynamic Programming
+			* Longest Increasing Subsequence
+			* Longest Common Subsequence
+			* Edit Distance
+			* Min Cost Path
+			* Coin Change
+			* Matrix Chain Multiplication
+			* Binomial Coefficient
+			* 0-1 Knapsack Problem
+			* Unbounded Knapsack Problem
+			* Bounded Knapsack Problem
 * Hardware Software Interface
+	* Print byte representation of data
+	* Buffer overflow demonstration
 * Leetcode
+	* 1. Two Sum
+	* 191. Number of 1 Bits
+	* 200. Number of Islands
