@@ -30,6 +30,14 @@ Solving coding problems from popular websites / books
 			* [0-1 Knapsack Problem](http://www.geeksforgeeks.org/dynamic-programming-set-10-0-1-knapsack-problem/)
 			* Unbounded Knapsack Problem
 			* Bounded Knapsack Problem
+			* [Egg Dropping Puzzle](http://www.geeksforgeeks.org/dynamic-programming-set-11-egg-dropping-puzzle/)
+			* [Longest Palindromic Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/)
+			* [Cutting a Rod](http://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/)
+			* [Maximum Sum Increasing Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-14-maximum-sum-increasing-subsequence/)
+			* [Longest Bitonic Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-15-longest-bitonic-subsequence/)
+			* [Palindrome Partitioning](http://www.geeksforgeeks.org/dynamic-programming-set-17-palindrome-partitioning/)
+			* [Partition Problem](http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/)
+			* [Word Wrap Problem](http://www.geeksforgeeks.org/dynamic-programming-set-18-word-wrap/)
 * Hardware Software Interface
 	* Print byte representation of data
 	* Buffer overflow demonstration
