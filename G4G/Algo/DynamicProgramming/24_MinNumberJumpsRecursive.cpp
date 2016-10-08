@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <climits>
 #include <cassert>
 
 /**
@@ -12,6 +13,32 @@
 */
 int minNumberJumps(int* arr, int n, int i) {
 
+	// If there are no elements, no jumps can be made
+	// If there is a single element, only one jump can be made
+	if (n <= 1) {
+		return n;
+	}
+
+	// If we can reach the end from current position, then we only need
+	// one jump
+	else if (i + arr[i] >= n - 1) {
+		return 1;
+	}
+
+	// If nothing is reachable from this position, return INT_MAX
+	else if (arr[i] == 0) {
+		return INT_MAX;
+	}
+
+	// Find all possible positions from which we can perform the next jump,
+	// and return the minimum one
+	else {
+		int minJumps = INT_MAX;
+		for (int j = 1; j <= arr[i]; j++) {
+			minJumps = std::min(minJumps, minNumberJumps(arr, n, i + j));
+		}
+		return 1 + minJumps;
+	}
 }
 
 /**
