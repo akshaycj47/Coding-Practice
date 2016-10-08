@@ -40,7 +40,7 @@ Solving coding problems from popular websites / books
 			* [Partition Problem](http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/)
 			* [Word Wrap Problem](http://www.geeksforgeeks.org/dynamic-programming-set-18-word-wrap/)
 			* [Maximum Length Chain of Pairs](http://www.geeksforgeeks.org/dynamic-programming-set-20-maximum-length-chain-of-pairs/)
-			* [Box Stacking Problem](http://www.geeksforgeeks.org/dynamic-programming-set-21-box-stacking-problem/)
+			* [Box Stacking Problem](http://www.geeksforgeeks.org/dynamic-programming-set-21-box-stacking-problem/gi)
 * Hardware Software Interface
 	* Print byte representation of data
 	* Buffer overflow demonstration
