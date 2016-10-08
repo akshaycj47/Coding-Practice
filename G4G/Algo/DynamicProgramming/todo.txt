@@ -1,1 +1,2 @@
 1. LIS (nlogn)
+2. Fibonacci Numbers (logn)
