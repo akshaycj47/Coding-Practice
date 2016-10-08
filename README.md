@@ -39,6 +39,8 @@ Solving coding problems from popular websites / books
 			* [Palindrome Partitioning](http://www.geeksforgeeks.org/dynamic-programming-set-17-palindrome-partitioning/)
 			* [Partition Problem](http://www.geeksforgeeks.org/dynamic-programming-set-18-partition-problem/)
 			* [Word Wrap Problem](http://www.geeksforgeeks.org/dynamic-programming-set-18-word-wrap/)
+			* [Maximum Length Chain of Pairs](http://www.geeksforgeeks.org/dynamic-programming-set-20-maximum-length-chain-of-pairs/)
+			* [Box Stacking Problem](http://www.geeksforgeeks.org/dynamic-programming-set-21-box-stacking-problem/)
 * Hardware Software Interface
 	* Print byte representation of data
 	* Buffer overflow demonstration
