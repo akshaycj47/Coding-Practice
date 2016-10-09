@@ -3,6 +3,16 @@
 #include <climits>
 #include <cassert>
 
+/**
+* Function that computes minimum number of jumps required to reach the 
+* end of the array
+* @params {array} arr - Array of integers where each element represents
+* the max number of steps that can be made forward from that element
+* @params {int} n - Number of elements in array
+* @params {int} i - Index from which want to calculate min number of jumps
+* @params {map} m - Map which stores the results
+* @return {int} Minimum number of jumps required to reach the end of the array
+*/
 int minNumberJumps(int* arr, int n, int i, std::map<int, int>& m) {
 
 	// First check if it is present in the map or not
@@ -36,6 +46,14 @@ int minNumberJumps(int* arr, int n, int i, std::map<int, int>& m) {
 	}
 }
 
+/**
+* Wrapper function that computes minimum number of jumps required to reach the 
+* end of the array
+* @params {array} arr - Array of integers where each element represents
+* the max number of steps that can be made forward from that element
+* @params {int} n - Number of elements in array
+* @return {int} Minimum number of jumps required to reach the end of the array
+*/
 int minNumberJumpsWrapper(int* arr, int n) {
 
 	// First create a map to store the values that are reused in recursion
