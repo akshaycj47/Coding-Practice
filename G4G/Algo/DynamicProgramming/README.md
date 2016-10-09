@@ -23,3 +23,4 @@ Solving dynamic programming coding problems from Geeks for Geeks website
 * [Word Wrap Problem](http://www.geeksforgeeks.org/dynamic-programming-set-18-word-wrap/)
 * [Maximum Length Chain of Pairs](http://www.geeksforgeeks.org/dynamic-programming-set-20-maximum-length-chain-of-pairs/)
 * [Box Stacking Problem](http://www.geeksforgeeks.org/dynamic-programming-set-21-box-stacking-problem/gi)
+* [Minimum Number of Jumps](http://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/)
