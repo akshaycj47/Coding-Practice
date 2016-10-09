@@ -71,4 +71,8 @@ int main() {
 	int arr[] = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9};
 	int n = sizeof(arr) / sizeof(arr[0]);
 	assert(minNumberJumpsWrapper(arr, n) == 3);
+
+	int arr2[] = {1, 3, 6, 1, 0, 9};
+	int n2 = sizeof(arr2) / sizeof(arr2[0]);
+	assert(minNumberJumpsWrapper(arr2, n2) == 3);
 }
