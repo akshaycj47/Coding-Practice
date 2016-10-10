@@ -21,6 +21,7 @@ Solving coding problems from popular websites / books
 		* [Linked List](http://www.geeksforgeeks.org/data-structures/linked-list/)
 	* [Algorithms](http://www.geeksforgeeks.org/fundamentals-of-algorithms/)
 		* [Dynamic Programming](http://www.geeksforgeeks.org/fundamentals-of-algorithms/#DynamicProgramming)
+		* [Bit Algorithms](http://www.geeksforgeeks.org/fundamentals-of-algorithms/#BitAlgorithms)
 * Hardware Software Interface
 	* Print byte representation of data
 	* Buffer overflow demonstration
