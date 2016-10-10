@@ -24,3 +24,4 @@ Solving dynamic programming coding problems from Geeks for Geeks website
 * [Maximum Length Chain of Pairs](http://www.geeksforgeeks.org/dynamic-programming-set-20-maximum-length-chain-of-pairs/)
 * [Box Stacking Problem](http://www.geeksforgeeks.org/dynamic-programming-set-21-box-stacking-problem/gi)
 * [Minimum Number of Jumps](http://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/)
+* [Ugly Numbers](http://www.geeksforgeeks.org/ugly-numbers/)
