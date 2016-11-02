@@ -22,6 +22,7 @@ Solving coding problems from popular websites / books
 	* [Algorithms](http://www.geeksforgeeks.org/fundamentals-of-algorithms/)
 		* [Dynamic Programming](http://www.geeksforgeeks.org/fundamentals-of-algorithms/#DynamicProgramming)
 		* [Bit Algorithms](http://www.geeksforgeeks.org/fundamentals-of-algorithms/#BitAlgorithms)
+		* [Divide and Conquer](http://www.geeksforgeeks.org/fundamentals-of-algorithms/#DivideandConquer)
 * Hardware Software Interface
 	* Print byte representation of data
 	* Buffer overflow demonstration
