@@ -1,62 +1,69 @@
 #include <cassert>
-#include <iostream>
 
-int sortedMerge(int* arr, int* left, int* right, int lo, int hi, int mid) {
+/**
+* Merge function of the merge sort process
+* @params {array} arr - Given array
+* @params {array} l - Left array
+* @params {int} lSize - Number of elements in left array
+* @params {array} r - Right array
+* @params {int} rSize - Number of elements in right array
+* @return {int} Number of inversions in merge procedure
+*/
+int sortedMerge(int* arr, int* l, int lSize, int* r, int rSize) {
 
+	int i = 0;
+	int j = 0;
+	int k = 0;
 	int count = 0;
-	int i = lo;
-	int j = mid;
-	int k = lo;
-	while (i < mid && j <= hi) {
 
-		if (left[i] <= right[j - mid]) {
-			arr[k] = left[i];
-			i++;
+	while (i < lSize && j < rSize) {
+		if (l[i] <= r[j]) {
+			arr[k++] = l[i++];
 		}
-		else if (left[i] > right[j - mid]) {
-			arr[k] = right[j - mid];
-			j++;
-			count += mid - i;
+		else if (l[i] > r[j]) {
+			arr[k++] = r[j++];
+			count += lSize - i;
 		}
-		k++;
 	}
-	
-	while (i < mid) {
-		arr[k] = left[i];
-		i++;
-		k++;
+	while (i < lSize) {
+		arr[k++] = l[i++];
 	}
-	while (j <= hi) {
-		arr[k] = right[j - mid];
-		j++;
-		k++;
+	while (j < rSize) {
+		arr[k++] = r[j++];
 	}
 
 	return count;
 }
 
-int mergeSort(int* arr, int lo, int hi) {
+/**
+* Function which perfoms merge sort on a given array. Number of 
+* inversions in a given array is the sum of number of inversions in 
+* left subarray, number of inversions in right subarray, and the 
+* number of inversions in the merge process
+* @params {array} arr - Given array
+* @params {int} n - Number of elements in array
+* @return {int} Number of inversions in given array
+*/
+int mergeSort(int* arr, int n) {
 
-	if (lo == hi) {
+	if (n < 2) {
 		return 0;
 	}
-	int mid = lo + (hi - lo) / 2 + 1;
+	int mid = n / 2;
+	int* l = new int[mid];
+	int* r = new int[n - mid];
 
-	int* left = new int[mid];
-	int* right = new int[hi - mid + 1];
-
-	for (int i = lo; i < mid; i++) {
-		left[i] = arr[i];
+	for (int i = 0; i < mid; i++) {
+		l[i] = arr[i];
 	}
-	for (int i = mid; i <= hi; i++) {
-		right[i - mid] = arr[i];
+	for (int i = mid; i < n; i++) {
+		r[i - mid] = arr[i];
 	}
+	int lCount = mergeSort(l, mid);
+	int rCount = mergeSort(r, n - mid);
+	int mergeCount = sortedMerge(arr, l, mid, r, n - mid);
 
-	int leftCount = mergeSort(left, lo, mid - 1);
-	int rightCount = mergeSort(right, mid, hi);
-	int mergeCount = sortedMerge(arr, left, right, lo, hi, mid);
-
-	return leftCount + rightCount + mergeCount;
+	return lCount + rCount + mergeCount;
 }
 
 /**
@@ -70,7 +77,7 @@ int mergeSort(int* arr, int lo, int hi) {
 */
 int countInversions(int* arr, int n) {
 
-	int count = mergeSort(arr, 0, n - 1);
+	int count = mergeSort(arr, n);
 	return count;
 }
 
@@ -81,11 +88,9 @@ int main() {
 
 	int arr[] = { 2, 4, 1, 3, 5 };
 	int n = sizeof(arr) / sizeof(arr[0]);
-	std::cout << countInversions(arr, n) << std::endl;
-	//assert(countInversions(arr, n) == 3);
+	assert(countInversions(arr, n) == 3);
 
 	int arr2[] = { 1, 20, 6, 4, 5 };
 	int n2 = sizeof(arr2) / sizeof(arr2[0]);
-	std::cout << countInversions(arr2, n2) << std::endl;
-	//assert(countInversions(arr2, n2) == 5);
+	assert(countInversions(arr2, n2) == 5);
 }
