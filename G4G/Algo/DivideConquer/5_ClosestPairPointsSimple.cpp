@@ -2,7 +2,6 @@
 #include <cmath>
 #include <algorithm>
 #include <cassert>
-#include <iostream>
 
 /**
 * Data structure for point
