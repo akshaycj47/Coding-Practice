@@ -5,6 +5,8 @@ Solving array coding problems from Geeks for Geeks website
 
 * [Find Sum Pair](http://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/)
 * [Majority Element](http://www.geeksforgeeks.org/majority-element/)
+* [Find Number Occurring Odd Number of Times](http://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/)
+* [Find Missing Element](http://www.geeksforgeeks.org/find-the-missing-number/)
 * [Search Element in Sorted and Pivoted Array](http://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
 * [Rotate Array](http://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/)
 * [Find Smallest and Second Smallest Elements](http://www.geeksforgeeks.org/to-find-smallest-and-second-smallest-element-in-an-array/)
