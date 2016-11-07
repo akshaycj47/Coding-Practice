@@ -12,8 +12,8 @@ using namespace std;
  * @params {int} sum - The sum for which we have to find a pair
  */
 void printPair(int* arr, int n, int sum) {
-	map<int, bool> m;
 
+	map<int, bool> m;
 	for(int i = 0; i < n; i++) {
 		if(m.find(sum - arr[i]) != m.end()) {
 			cout << "First number: " << sum - arr[i] << endl;
@@ -27,6 +27,7 @@ void printPair(int* arr, int n, int sum) {
  * Starting point of the program
  */
 int main() {
+	
 	int arr[] = {1, 5, 9, 4, 2, 7, 6};
 	int n = sizeof(arr) / sizeof(arr[0]);
 	int sum = 12;
