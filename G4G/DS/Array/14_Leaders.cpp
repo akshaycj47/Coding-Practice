@@ -23,7 +23,9 @@ void findLeaders(int* arr, int n, std::vector<int>& result) {
 	}
 }
 
-
+/**
+ * Starting point of the program
+ */
 int main() {
 
 	int arr[] = {16, 17, 4, 3, 5, 2};
