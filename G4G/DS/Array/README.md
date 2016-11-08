@@ -10,6 +10,7 @@ Solving array coding problems from Geeks for Geeks website
 * [Search Element in Sorted and Pivoted Array](http://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
 * [Rotate Array](http://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/)
 * [Maximum Sum such that no Two Elements are Adjacent](http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
+* [Leaders in Array](http://www.geeksforgeeks.org/leaders-in-an-array/)
 * [Find Smallest and Second Smallest Elements](http://www.geeksforgeeks.org/to-find-smallest-and-second-smallest-element-in-an-array/)
 * [Product Array Puzzle](http://www.geeksforgeeks.org/a-product-array-puzzle/)
 * [Segregate Even and Odd Numbers](http://www.geeksforgeeks.org/segregate-even-and-odd-numbers/)
