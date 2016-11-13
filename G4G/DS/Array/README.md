@@ -22,4 +22,5 @@ Solving array coding problems from Geeks for Geeks website
 * [Find Next Greater Element](http://www.geeksforgeeks.org/next-greater-element/)
 * [Check if Array Elements are Consecutive](http://www.geeksforgeeks.org/check-if-array-elements-are-consecutive/)
 * [Count Number of Occurrences in Sorted Array](http://www.geeksforgeeks.org/count-number-of-occurrences-in-a-sorted-array/)
+* [Given an Array arr[], find the Maximum j – i such that arr[j] > arr[i]](http://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/)
 * [Find Maximum of all Subarrays of Size K](http://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/)
