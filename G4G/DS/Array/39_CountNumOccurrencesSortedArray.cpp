@@ -86,4 +86,7 @@ int main() {
 	int arr[] = {1, 1, 2, 2, 2, 2, 3};
 	int n = sizeof(arr) / sizeof(arr[0]);
 	cout << countNumOccurrences(arr, n, 2) << endl;
+	cout << countNumOccurrences(arr, n, 3) << endl;
+	cout << countNumOccurrences(arr, n, 1) << endl;
+	cout << countNumOccurrences(arr, n, 4) << endl;
 }
