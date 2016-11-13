@@ -16,6 +16,7 @@ Solving array coding problems from Geeks for Geeks website
 * [Product Array Puzzle](http://www.geeksforgeeks.org/a-product-array-puzzle/)
 * [Segregate Even and Odd Numbers](http://www.geeksforgeeks.org/segregate-even-and-odd-numbers/)
 * [Sort Array of 0s, 1s, and 2s](http://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/)
+* [Find Duplicates in an Array](http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/)
 * [Find Equilibrium Index](http://www.geeksforgeeks.org/equilibrium-index-of-an-array/)
 * [Find Next Greater Element](http://www.geeksforgeeks.org/next-greater-element/)
 * [Count Number of Occurrences in Sorted Array](http://www.geeksforgeeks.org/count-number-of-occurrences-in-a-sorted-array/)
