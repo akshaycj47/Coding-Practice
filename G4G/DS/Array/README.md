@@ -20,5 +20,6 @@ Solving array coding problems from Geeks for Geeks website
 * [Find Duplicates in an Array](http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/)
 * [Find Equilibrium Index](http://www.geeksforgeeks.org/equilibrium-index-of-an-array/)
 * [Find Next Greater Element](http://www.geeksforgeeks.org/next-greater-element/)
+* [Check if Array Elements are Consecutive](http://www.geeksforgeeks.org/check-if-array-elements-are-consecutive/)
 * [Count Number of Occurrences in Sorted Array](http://www.geeksforgeeks.org/count-number-of-occurrences-in-a-sorted-array/)
 * [Find Maximum of all Subarrays of Size K](http://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/)
