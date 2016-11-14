@@ -25,3 +25,4 @@ Solving array coding problems from Geeks for Geeks website
 * [Given an Array arr[], find the Maximum j – i such that arr[j] > arr[i]](http://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/)
 * [Find Maximum of all Subarrays of Size K](http://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/)
 * [Check if an Array is a Subset of Another Array](http://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/)
+* [Find the Minimum Distance between Two Numbers](http://www.geeksforgeeks.org/find-the-minimum-distance-between-two-numbers/)
