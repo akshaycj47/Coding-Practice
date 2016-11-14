@@ -47,4 +47,12 @@ int main() {
 	int arr[] = {1, 2, 3, 1, 4, 5, 2, 3, 6};
 	int n = sizeof(arr) / sizeof(arr[0]);
 	maxSubarraySizeK(arr, n, 3);
+
+	int arr2[] = {12, 1, 78, 90, 57, 89, 56};
+	int n2 = sizeof(arr2) / sizeof(arr2[0]);
+	maxSubarraySizeK(arr2, n2, 3);
+
+	int arr3[] = {8, 5, 10, 7, 9, 4, 15, 12, 90, 13};
+	int n3 = sizeof(arr3) / sizeof(arr3[0]);
+	maxSubarraySizeK(arr3, n3, 4);
 }
