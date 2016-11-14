@@ -1,6 +1,15 @@
 #include <unordered_map>
 #include <cassert>
 
+/**
+ * Function which checks if an array is a subset of a bigger array
+ * @params {array} arr1 - Larger array
+ * @params {int} n1 - Size of the larger array
+ * @params {array} arr2 - Smaller array
+ * @params {int} n2 - Size of the smaller array
+ * @return {bool} If array is a subset of a bigger array, return true
+ * else, return false
+ */
 bool checkArraySubset(int* arr1, int n1, int* arr2, int n2) {
 
 	// Create a map and start storing first array elements
@@ -18,6 +27,9 @@ bool checkArraySubset(int* arr1, int n1, int* arr2, int n2) {
 	return true;
 }
 
+/**
+ * Starting point of the program
+ */
 int main() {
 
 	int arr1[] = {11, 1, 13, 21, 3, 7};
