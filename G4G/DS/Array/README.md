@@ -27,3 +27,4 @@ Solving array coding problems from Geeks for Geeks website
 * [Check if an Array is a Subset of Another Array](http://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/)
 * [Find the Minimum Distance between Two Numbers](http://www.geeksforgeeks.org/find-the-minimum-distance-between-two-numbers/)
 * [Find a Repeating and a Missing Number in an Array](http://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/)
+* [Find Fixed Point in an Array](http://www.geeksforgeeks.org/find-a-fixed-point-in-a-given-array/)
