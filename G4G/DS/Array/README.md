@@ -29,3 +29,4 @@ Solving array coding problems from Geeks for Geeks website
 * [Find a Repeating and a Missing Number in an Array](http://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/)
 * [Find Fixed Point in an Array](http://www.geeksforgeeks.org/find-a-fixed-point-in-a-given-array/)
 * [Maximum Length Bitonic Subarray](http://www.geeksforgeeks.org/maximum-length-bitonic-subarray/)
+* [Maximum Element in an Array which is First Increasing then Decreasing](http://www.geeksforgeeks.org/find-the-maximum-element-in-an-array-which-is-first-increasing-and-then-decreasing/)
