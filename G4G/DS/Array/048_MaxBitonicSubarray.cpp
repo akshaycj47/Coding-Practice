@@ -2,6 +2,13 @@
 #include <algorithm>
 #include <cassert>
 
+/**
+ * Function which finds the maximum length bitonic subarray in
+ * the given array
+ * @params {array} arr - Given array
+ * @params {int} n - Size of the array
+ * @return {int} Length of maximum length bitonic subarray
+ */
 int maxBitonicSubarray(int* arr, int n) {
 
 	// Constructing dynamic array for 
@@ -40,6 +47,9 @@ int maxBitonicSubarray(int* arr, int n) {
 	return maxLength;
 }
 
+/**
+ * Starting point of the program
+ */
 int main() {
 
 	int arr[] = {12, 4, 78, 90, 45, 23};
