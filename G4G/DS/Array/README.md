@@ -31,3 +31,4 @@ Solving array coding problems from Geeks for Geeks website
 * [Maximum Length Bitonic Subarray](http://www.geeksforgeeks.org/maximum-length-bitonic-subarray/)
 * [Maximum Element in an Array which is First Increasing then Decreasing](http://www.geeksforgeeks.org/find-the-maximum-element-in-an-array-which-is-first-increasing-and-then-decreasing/)
 * [Find Subarray with Given Sum](http://www.geeksforgeeks.org/find-subarray-with-given-sum/)
+* [Maximum Sum Increasing Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-14-maximum-sum-increasing-subsequence/)
