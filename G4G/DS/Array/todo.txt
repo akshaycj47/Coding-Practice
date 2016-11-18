@@ -5,3 +5,4 @@
 44. Find minimum distance between two numbers (only solution left)
 45. Find median in stream of running integers (requires heap knowledge)
 50. Count smaller elements on the right side (requires self-balancing tree)
+55. Longest Increasing Subsequence (NlogN)
