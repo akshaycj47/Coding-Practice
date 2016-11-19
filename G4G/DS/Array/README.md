@@ -33,3 +33,4 @@ Solving array coding problems from Geeks for Geeks website
 * [Find Subarray with Given Sum](http://www.geeksforgeeks.org/find-subarray-with-given-sum/)
 * [Maximum Sum Increasing Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-14-maximum-sum-increasing-subsequence/)
 * [Smallest Positive Number in an Array of Positive and Non-Positive Numbers](http://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/)
+* [Find Two Numbers with Odd Occurrences in an Unsorted Array](http://www.geeksforgeeks.org/find-the-two-numbers-with-odd-occurences-in-an-unsorted-array/)
