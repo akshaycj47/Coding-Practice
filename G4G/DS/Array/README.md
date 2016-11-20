@@ -35,3 +35,4 @@ Solving array coding problems from Geeks for Geeks website
 * [Smallest Positive Number in an Array of Positive and Non-Positive Numbers](http://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/)
 * [Find Two Numbers with Odd Occurrences in an Unsorted Array](http://www.geeksforgeeks.org/find-the-two-numbers-with-odd-occurences-in-an-unsorted-array/)
 * [Celebrity Problem](http://www.geeksforgeeks.org/the-celebrity-problem/)
+* [Find a Sorted Subsequence of Size 3](http://www.geeksforgeeks.org/find-a-sorted-subsequence-of-size-3-in-linear-time/)
