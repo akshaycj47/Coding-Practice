@@ -36,3 +36,4 @@ Solving array coding problems from Geeks for Geeks website
 * [Find Two Numbers with Odd Occurrences in an Unsorted Array](http://www.geeksforgeeks.org/find-the-two-numbers-with-odd-occurences-in-an-unsorted-array/)
 * [Celebrity Problem](http://www.geeksforgeeks.org/the-celebrity-problem/)
 * [Find a Sorted Subsequence of Size 3](http://www.geeksforgeeks.org/find-a-sorted-subsequence-of-size-3-in-linear-time/)
+* [Find Largest Subarray with Equal 0s and 1s](http://www.geeksforgeeks.org/largest-subarray-with-equal-number-of-0s-and-1s/)
