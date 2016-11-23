@@ -38,3 +38,4 @@ Solving array coding problems from Geeks for Geeks website
 * [Find a Sorted Subsequence of Size 3](http://www.geeksforgeeks.org/find-a-sorted-subsequence-of-size-3-in-linear-time/)
 * [Find Largest Subarray with Equal 0s and 1s](http://www.geeksforgeeks.org/largest-subarray-with-equal-number-of-0s-and-1s/)
 * [Maximum Length Chain of Pairs](http://www.geeksforgeeks.org/dynamic-programming-set-20-maximum-length-chain-of-pairs/)
+* [Find Four Elements with Given Sum](http://www.geeksforgeeks.org/find-four-elements-that-sum-to-a-given-value-set-2/)
