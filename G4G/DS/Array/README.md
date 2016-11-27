@@ -39,3 +39,4 @@ Solving array coding problems from Geeks for Geeks website
 * [Find Largest Subarray with Equal 0s and 1s](http://www.geeksforgeeks.org/largest-subarray-with-equal-number-of-0s-and-1s/)
 * [Maximum Length Chain of Pairs](http://www.geeksforgeeks.org/dynamic-programming-set-20-maximum-length-chain-of-pairs/)
 * [Find Four Elements with Given Sum](http://www.geeksforgeeks.org/find-four-elements-that-sum-to-a-given-value-set-2/)
+* [Count Number of Possible Triangles](http://www.geeksforgeeks.org/find-number-of-triangles-possible/)
