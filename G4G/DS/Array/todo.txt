@@ -7,3 +7,4 @@
 50. Count smaller elements on the right side (requires self-balancing tree)
 55. Longest Increasing Subsequence (NlogN)
 64. Maximum Product Subarray
+70. Sort a nearly sorted (or k sorted) array
