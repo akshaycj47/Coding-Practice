@@ -5,7 +5,7 @@
  * Function which swaps two characters
  * @params {char} x - First character
  * @params {char} y - Second character
-*/
+ */
 void swap(char* x, char* y) {
 
 	char temp = *x;
@@ -18,7 +18,7 @@ void swap(char* x, char* y) {
  * @params {char array} c - Given string
  * @params {int} l - Lower index of the string
  * @params {int} r - Upper index of the string
-*/
+ */
 void printPermutationsString(char* c, int l, int r) {
 
 	if (l == r) {
@@ -35,7 +35,7 @@ void printPermutationsString(char* c, int l, int r) {
 
 /**
  * Starting point of the program
-*/
+ */
 int main() {
 
 	char c[] = "ABC";
