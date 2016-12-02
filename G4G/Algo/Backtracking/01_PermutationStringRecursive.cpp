@@ -2,9 +2,9 @@
 #include <iostream>
 
 /**
-* Function which swaps two characters
-* @params {char} x - First character
-* @params {char} y - Second character
+ * Function which swaps two characters
+ * @params {char} x - First character
+ * @params {char} y - Second character
 */
 void swap(char* x, char* y) {
 
@@ -14,10 +14,10 @@ void swap(char* x, char* y) {
 }
 
 /**
-* Function which prints all the permutations of a given string
-* @params {char array} c - Given string
-* @params {int} l - Lower index of the string
-* @params {int} r - Upper index of the string
+ * Function which prints all the permutations of a given string
+ * @params {char array} c - Given string
+ * @params {int} l - Lower index of the string
+ * @params {int} r - Upper index of the string
 */
 void printPermutationsString(char* c, int l, int r) {
 
@@ -34,7 +34,7 @@ void printPermutationsString(char* c, int l, int r) {
 }
 
 /**
-* Starting point of the program
+ * Starting point of the program
 */
 int main() {
 
