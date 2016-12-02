@@ -1,5 +1,5 @@
 # Backtracking
-Solving array coding problems from Geeks for Geeks website
+Solving backtracking coding problems from Geeks for Geeks website
 
 **Table of Contents**
 
