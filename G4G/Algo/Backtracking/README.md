@@ -10,3 +10,4 @@ Solving backtracking coding problems from Geeks for Geeks website
 5. [Subset Sum](http://www.geeksforgeeks.org/backttracking-set-4-subset-sum/)
 6. [Graph Coloring](http://www.geeksforgeeks.org/backttracking-set-5-m-coloring-problem/)
 7. [Hamiltonian Cycle](http://www.geeksforgeeks.org/backtracking-set-7-hamiltonian-cycle/)
+8. [Sudoku](http://www.geeksforgeeks.org/backtracking-set-7-suduku/)
