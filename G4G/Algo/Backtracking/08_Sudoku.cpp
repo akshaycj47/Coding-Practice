@@ -2,6 +2,10 @@
 #define N 9
 #define UNASSIGNED 0
 
+/**
+* Function to print given Sudoku grid
+* @params {matrix} grid - Sudoku grid
+*/
 void printGrid(int grid[N][N]) {
 
 	for (int i = 0; i < N; i++) {
@@ -13,6 +17,15 @@ void printGrid(int grid[N][N]) {
 	printf("\n");
 }
 
+/**
+* Function to check if a given number is present on current row
+* @params {matrix} grid - Sudoku grid
+* @params {int} row - Row index of current position
+* @params {int} col - Col index of current position
+* @params {int} num - Given number to be checked
+* @return {bool} If number is present on the current row, 
+* return true; else return false
+*/
 bool numPresentRow(int grid[N][N], int row, int col, int num) {
 
 	for (int j = 0; j < N; j++) {
@@ -23,6 +36,15 @@ bool numPresentRow(int grid[N][N], int row, int col, int num) {
 	return false;
 }
 
+/**
+* Function to check if a given number is present on current column
+* @params {matrix} grid - Sudoku grid
+* @params {int} row - Row index of current position
+* @params {int} col - Col index of current position
+* @params {int} num - Given number to be checked
+* @return {bool} If number is present on the current column, 
+* return true; else return false
+*/
 bool numPresentCol(int grid[N][N], int row, int col, int num) {
 
 	for (int i = 0; i < N; i++) {
@@ -33,6 +55,17 @@ bool numPresentCol(int grid[N][N], int row, int col, int num) {
 	return false;
 }
 
+/**
+* Function to check if a given number is present on current 3x3 sub-grid
+* @params {matrix} grid - Sudoku grid
+* @params {int} row - Row index of current position
+* @params {int} col - Col index of current position
+* @params {int} gridRowBegin - Start row index of 3x3 sub-grid
+* @params {int} gridColBegin - Start col index of 3x3 sub-grid
+* @params {int} num - Given number to be checked
+* @return {bool} If number is present on the current 3x3 sub-grid, 
+* return true; else return false
+*/
 bool numPresentSubGrid(int grid[N][N], int row, int col, int gridRowBegin, int gridColBegin, int num) {
 
 	for (int i = gridRowBegin; i < gridRowBegin + 3; i++) {
@@ -45,6 +78,16 @@ bool numPresentSubGrid(int grid[N][N], int row, int col, int gridRowBegin, int g
 	return false;
 }
 
+/**
+* Function to check if a given number can be placed on the 
+* current position
+* @params {matrix} grid - Sudoku grid
+* @params {int} row - Row index of current position
+* @params {int} col - Col index of current position
+* @params {int} num - Given number to be checked
+* @return {bool} If number can be placed on the current position, 
+* return true; else return false
+*/
 bool isSafeMove(int grid[N][N], int row, int col, int num) {
 
 	// Check if number is present in current row, current column, or current subgrid
@@ -54,6 +97,14 @@ bool isSafeMove(int grid[N][N], int row, int col, int num) {
 	return true;
 }
 
+/**
+* Function to find unassigned position in the Sudoku grid
+* @params {matrix} grid - Sudoku grid
+* @params {int} row - Row index of unassigned position
+* @params {int} col - Col index of unassigned position
+* @return {bool} If unassigned position is found, return true;
+* else return false
+*/
 bool findUnassignedPosition(int grid[N][N], int& row, int& col) {
 
 	for (row = 0; row < N; row++) {
@@ -66,6 +117,11 @@ bool findUnassignedPosition(int grid[N][N], int& row, int& col) {
 	return false;
 }
 
+/**
+* Utility function to solve Sudoku
+* @params {matrix} grid - Sudoku grid
+* @return {bool} If Sudoku can be solved, return true; else false
+*/
 bool solveSudokuUtil(int grid[N][N]) {
 
 	int row;
@@ -96,6 +152,10 @@ bool solveSudokuUtil(int grid[N][N]) {
 	return false;
 }
 
+/**
+* Function to solve Sudoku
+* @params {matrix} grid - Sudoku grid
+*/
 void solveSudoku(int grid[N][N]) {
 
 	if (solveSudokuUtil(grid)) {
@@ -107,6 +167,9 @@ void solveSudoku(int grid[N][N]) {
 	}
 }
 
+/**
+* Starting point of the program
+*/
 int main() {
 
 	// 0 means unassigned cells
