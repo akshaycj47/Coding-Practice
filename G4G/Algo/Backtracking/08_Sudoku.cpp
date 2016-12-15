@@ -14,7 +14,7 @@ void printGrid(int grid[N][N]) {
 		}
 		printf("\n");
 	}
-	printf("\n"); 
+	printf("\n");
 }
 
 /**
