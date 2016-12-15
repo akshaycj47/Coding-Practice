@@ -7,3 +7,4 @@ Solving backtracking coding problems from Geeks for Geeks website
 2. [Knight's Tour](http://www.geeksforgeeks.org/backtracking-set-1-the-knights-tour-problem/)
 3. [Rat in a Maze](http://www.geeksforgeeks.org/backttracking-set-2-rat-in-a-maze/)
 4. [N Queens](http://www.geeksforgeeks.org/backtracking-set-3-n-queen-problem/)
+5. [Subset Sum](http://www.geeksforgeeks.org/backttracking-set-4-subset-sum/)
