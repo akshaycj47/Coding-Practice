@@ -28,6 +28,3 @@ Solving coding problems from popular websites / books
 	* Print byte representation of data
 	* Buffer overflow demonstration
 * [Leetcode](https://leetcode.com/problemset/algorithms/)
-	* [1. Two Sum](https://leetcode.com/problems/two-sum/)
-	* [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-	* [200. Number of Islands](https://leetcode.com/problems/number-of-islands)
