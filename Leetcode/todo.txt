@@ -2,4 +2,5 @@
 004. Median of 2 sorted arrays
 007. Reverse Number
 010. Regular Expression Matching (DP)
+031. Next Permutation
 200. Number of islands
