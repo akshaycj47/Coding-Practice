@@ -5,4 +5,7 @@
 031. Next Permutation
 032. Longest Valid Parantheses
 042. Trapping Rain Water
+044. Wildcard matching
+045. Jump Game 2
+047. Permutations 2
 200. Number of islands
