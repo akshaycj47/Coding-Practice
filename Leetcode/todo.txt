@@ -4,4 +4,5 @@
 010. Regular Expression Matching (DP)
 031. Next Permutation
 032. Longest Valid Parantheses
+042. Trapping Rain Water
 200. Number of islands
