@@ -15,6 +15,8 @@ Solving coding problems from popular websites / books
 	* Divide and Conquer
 		* Maximum Subarray
 		* Matrix Multiplication
+* Design Patterns
+	* Strategy Pattern
 * [Geeks for Geeks (G4G)](http://www.geeksforgeeks.org/)
 	* [Data Structures](http://www.geeksforgeeks.org/data-structures/)
 		* [Array](http://www.geeksforgeeks.org/array/)
