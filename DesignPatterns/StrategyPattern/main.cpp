@@ -10,6 +10,7 @@
 #include "SortingAlgorithms/BubbleSort.h"
 #include "SortingAlgorithms/MergeSort.h"
 #include "SortingAlgorithms/QuickSort.h"
+#include "SortingAlgorithms/HeapSort.h"
 
 void clientCode(BaseSort* algo) {
 	std::cout << "Client code...\n";
@@ -21,7 +22,7 @@ int main() {
 	std::cout << "Strategy Pattern: Implement different sorting algorithms using strategy pattern" << std::endl;
 
 	// Enumerate different sorting strategies
-	Algos criteria[] = {Selection, Insertion, Bubble, Merge, Quick};
+	Algos criteria[] = {Selection, Insertion, Bubble, Merge, Quick, Heap};
 
 	for(size_t i = 0; i < COUNT(criteria); i++) {
 		
@@ -43,6 +44,9 @@ int main() {
 			break;
 		case Quick:
 			algo = new QuickSort;
+			break;
+		case Heap:
+			algo = new HeapSort;
 			break;
 		default:
 			algo = new BaseSort;
