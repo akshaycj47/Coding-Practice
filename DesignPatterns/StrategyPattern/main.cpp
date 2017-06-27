@@ -17,7 +17,7 @@ int main() {
 	std::cout << "Strategy Pattern: Implement different sorting algorithms using strategy pattern" << std::endl;
 
 	// Enumerate different sorting strategies
-	Algos criteria[] = {Insertion};
+	Algos criteria[] = {Selection, Insertion};
 
 	for(size_t i = 0; i < COUNT(criteria); i++) {
 		
