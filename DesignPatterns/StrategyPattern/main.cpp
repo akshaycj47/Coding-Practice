@@ -5,7 +5,10 @@
 
 #include "../macros.h"
 #include "Sort.h"
+#include "SortingAlgorithms/SelectionSort.h"
 #include "SortingAlgorithms/InsertionSort.h"
+#include "SortingAlgorithms/BubbleSort.h"
+
 
 void clientCode(BaseSort* algo) {
 	std::cout << "Client code...\n";
@@ -17,7 +20,7 @@ int main() {
 	std::cout << "Strategy Pattern: Implement different sorting algorithms using strategy pattern" << std::endl;
 
 	// Enumerate different sorting strategies
-	Algos criteria[] = {Selection, Insertion};
+	Algos criteria[] = {Selection, Insertion, Bubble};
 
 	for(size_t i = 0; i < COUNT(criteria); i++) {
 		
@@ -25,8 +28,14 @@ int main() {
 		BaseSort* algo = 0;
 
 		switch(criteria[i]) {
+		case Selection:
+			algo = new SelectionSort;
+			break;
 		case Insertion:
 			algo = new InsertionSort;
+			break;
+		case Bubble:
+			algo = new BubbleSort;
 			break;
 		default:
 			algo = new BaseSort;
