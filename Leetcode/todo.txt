@@ -9,4 +9,6 @@
 045. Jump Game 2
 047. Permutations 2
 053. Maximum subarray
+060. Permutation sequence
+061. Rotate list
 200. Number of islands
