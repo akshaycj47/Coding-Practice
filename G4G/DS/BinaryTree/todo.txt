@@ -2,3 +2,4 @@ Todo for Binary Tree / BST:
 1. Inorder traversal of binary tree without recursion or stack.
 2. Construct tree from given inorder and preorder traversals. 
 3. All traversals of binary tree using stack.
+4. Convert sorted Linked List / DLL to BST (tricky O(n) methods).
