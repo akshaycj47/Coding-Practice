@@ -12,5 +12,6 @@
 060. Permutation sequence
 061. Rotate list
 200. Number of islands
+222. Count complete tree nodes
 297. Serialize deserialize BST (learn splitting string in c++ using delimiters like ,)
 437. Path sum 3
