@@ -11,6 +11,7 @@
 053. Maximum subarray
 060. Permutation sequence
 061. Rotate list
+116. Populate next right pointer
 200. Number of islands
 222. Count complete tree nodes
 297. Serialize deserialize BST (learn splitting string in c++ using delimiters like ,)
