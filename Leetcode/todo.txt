@@ -17,3 +17,4 @@
 355. Design Twitter (look at optimal solutions)
 437. Path sum 3
 545. Boundary of Binary Tree
+633. Sum of Square Numbers
