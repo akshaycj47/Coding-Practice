@@ -15,6 +15,7 @@
 152. Maximum product subarray
 297. Serialize deserialize BST (learn splitting string in c++ using delimiters like ,)
 355. Design Twitter (look at optimal solutions)
+386. Lexicographical Numbers
 437. Path sum 3
 545. Boundary of Binary Tree
 633. Sum of Square Numbers
