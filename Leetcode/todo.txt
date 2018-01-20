@@ -12,6 +12,7 @@
 060. Permutation sequence
 117. Populate next right pointer - 2
 134. Gas station
+139. Word break
 152. Maximum product subarray
 297. Serialize deserialize BST (learn splitting string in c++ using delimiters like ,)
 355. Design Twitter (look at optimal solutions)
