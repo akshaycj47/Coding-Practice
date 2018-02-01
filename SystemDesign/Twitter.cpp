@@ -97,6 +97,7 @@ public:
 
         // Post a tweet
         userMap[ userId ]->post( tweetId, timestamp );
+        timestamp++;
     }
 
     // Comparator for priority queue
